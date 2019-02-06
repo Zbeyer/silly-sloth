@@ -14,8 +14,17 @@ git init
 # Make remote repo on github (follow instructions)
 hub create -d <description>
 
+# Initialize NPM
+npm init -y 
 
+# Add Random Number Generator
+npm install --save random-number-in-range
+
+# Tests
+npm install --save-dev tap nyc standard
 ```
+
+
 
 
 

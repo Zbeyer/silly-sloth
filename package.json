@@ -1,0 +1,29 @@
+{
+  "name": "silly-sloth",
+  "version": "1.0.0",
+  "description": "Silly-Sloth",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap --coverage test/index.js",
+    "posttest": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zbeyer/silly-sloth.git"
+  },
+  "keywords": [],
+  "author": "Zachary Beyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zbeyer/silly-sloth/issues"
+  },
+  "homepage": "https://github.com/Zbeyer/silly-sloth#readme",
+  "dependencies": {
+    "random-number-in-range": "^1.0.2"
+  },
+  "devDependencies": {
+    "nyc": "^13.2.0",
+    "standard": "^12.0.1",
+    "tap": "^12.5.1"
+  }
+}
